@@ -6,7 +6,7 @@ int main()
 {
 	int k, m;
 	int s = 0;
-	cin >>  k;
+	cin >> k;
 	cin >>  m;
 
 	
