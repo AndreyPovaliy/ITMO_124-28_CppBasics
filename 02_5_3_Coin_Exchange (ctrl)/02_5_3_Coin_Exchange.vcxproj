@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7fabf035-6f63-48b5-9033-c9e052690b75}</ProjectGuid>
-    <RootNamespace>My021ImplementationSelectionOperators</RootNamespace>
+    <ProjectGuid>{da592f80-fba3-4ecc-8925-04fc0d625bad}</ProjectGuid>
+    <RootNamespace>My0253CoinExchange</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>02_1_1_IfElse</ProjectName>
+    <ProjectName>02_5_3_Coin_Exchange (ctrl)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +128,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

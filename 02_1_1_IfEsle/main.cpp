@@ -10,16 +10,16 @@ int main()
 	cin >> x;
 	cout << "Введите координату точки y\n";
 	cin >> y;
-	
-	if (x * x + y * y < 9 && y > 0) 
+
+	if (x * x + y * y < 9 && y > 0)
 	{
 		cout << "\nВнутри " << endl;
-	}	
-	else if (x * x + y * y > 9 || y < 0) 
+	}
+	else if (x * x + y * y > 9 || y < 0)
 	{
 		cout << "\nCнаружи " << endl;
-	} 		
-	else 
+	}
+	else
 	{
 		cout << "\nНа границе " << endl;
 	}
