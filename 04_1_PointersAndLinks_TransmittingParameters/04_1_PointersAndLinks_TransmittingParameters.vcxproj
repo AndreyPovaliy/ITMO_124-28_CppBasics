@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2c70b264-85ed-4f03-a379-9a089c6b9171}</ProjectGuid>
-    <RootNamespace>My0251Superprimectrl</RootNamespace>
+    <ProjectGuid>{5e3a2993-e59d-42a3-aa48-7cbe6a4dd901}</ProjectGuid>
+    <RootNamespace>My041PointersAndLinksTransmittingParameters</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
