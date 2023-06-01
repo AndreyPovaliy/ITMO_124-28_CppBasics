@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e5f1628f-8d9d-4192-ab71-f4d9ba262af2}</ProjectGuid>
+    <ProjectGuid>{4ad67749-90a6-476d-9782-c23810d3557f}</ProjectGuid>
     <RootNamespace>My0252CheckingSNILSctrl</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

@@ -1,34 +1,50 @@
 #include <iostream>
-#include <string>
-#include <regex>
-
+#include <windows.h>
 using namespace std;
 
-int main()
-{
-	//regex reg("(\\d)");
-	system("chcp 1251");
-	string snils;
-	int sum = 0;
-	string res;
-	cout << "Введите СНИЛС: ";
-	getline(cin, snils);
-	if (snils.length() > 9)
-	{
-		cout << "СНИЛС не может быть более 9 значений" << endl;
-	}
-	else if (snils.length() < 9)
-	{
-		cout << "СНИЛС не может быть менее 9 значений" << endl;
-	}
-	else {
-		for (int i = 0; i < snils.length(); i++)
-		{
-			if (snils.substr(i, 1) == snils.substr(i + 1, 1) && snils.substr(i + 1, 1) == snils.substr(i + 2, 1))
-			{
-				cout << "Yе может быть более чем двух одинаковых цифр подряд" << endl;
-				break;
-			}
-			else if (
-	}
+int main() {
+    system("chcp 1251");
+
+    
+
+    int number_snils;
+    int sumOfNumberSnils = 0;
+    int inputCheckNum, checkNum;
+    int limitation = 0;
+
+    cout << "Введите СНИЛС: ";
+    for (int i = 1; i <= 9; i++) {
+        cin >> number_snils;
+
+        if (i != 0) {
+            sumOfNumberSnils += number_snils * i;
+        }
+        else {
+            inputCheckNum = number_snils;
+        }
+    }
+    cout << sumOfNumberSnils << endl;
+
+    /*limitation = sum % 101;
+
+    if (sum < 100) {
+        checkNum = inputCheckNum;
+    }
+    else if (sum == 100 || sum == 101) {
+        checkNum = 0;
+    }
+    else if (remainder < 100) {
+        checkNum = limitation;
+    }
+    else {
+        checkNum = 0;
+    }
+
+    cout << "Результат проверки: ";
+    if (checkNum == inputCheckNum) {
+        cout << true << std::endl;
+    }
+    else {
+        cout << false << std::endl;
+    }*/
 }
