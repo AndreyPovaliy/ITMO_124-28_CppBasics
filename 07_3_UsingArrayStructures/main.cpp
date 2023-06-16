@@ -53,7 +53,7 @@ int main()
 	sum.inches = 0;
 	cout << "¬ведите размер массива рассто€ний ";
 	cin >> n;
-	Distance* masDist = new Distance[n];
+	Distance * masDist = new Distance[n];
 	for (int i = 0; i < n; i++)
 	{
 		masDist[i] = InputDist();

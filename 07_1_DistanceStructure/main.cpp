@@ -7,7 +7,7 @@ struct Distance
 	double inches;
 	void ShowDist()
 	{
-		cout << feet << "\'-" << inches << "\"\n";
+		cout << feet << "\' - " << inches << "\"\n";
 	}
 };
 
